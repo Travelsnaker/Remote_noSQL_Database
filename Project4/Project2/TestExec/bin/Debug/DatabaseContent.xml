@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Convert database content to XML file-->
+<NoSQLdb>
+  <element>
+    <key>key15</key>
+    <value>
+      <name>elementLos1</name>
+      <descr>element with ListofStrings payload</descr>
+      <timestamp>2015/9/29 12:00:00</timestamp>
+      <payload>
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+        <item>five</item>
+      </payload>
+    </value>
+  </element>
+  <element>
+    <key>key16</key>
+    <value>
+      <name>elemLos2</name>
+      <descr>element with ListOfString payload</descr>
+      <timestamp>2015/10/2 10:00:00</timestamp>
+      <children>
+        <key>key1</key>
+        <key>key2</key>
+        <key>key3</key>
+      </children>
+      <payload>
+        <item>alpha</item>
+        <item>beta</item>
+        <item>gamma</item>
+        <item>delta</item>
+        <item>epsilon</item>
+      </payload>
+    </value>
+  </element>
+</NoSQLdb>

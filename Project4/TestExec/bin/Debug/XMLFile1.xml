@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Msgs>
+<numMsg>3</numMsg>
+<Msg>
+  <DBName>String_ListOfString</DBName>
+  <Command>keyQuery</Command>
+  <Data>
+    <key>key1</key>
+  </Data>
+</Msg>
+  <Msg>
+    <DBName>String_ListOfString</DBName>
+    <Command>childrenQuery</Command>
+    <Data>
+      <key>key4</key>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>String_ListOfString</DBName>
+    <Command>timeQuery</Command>
+    <Data>
+      <firstTime>2014/9/29 11:00:00</firstTime>
+      <secondTime>2016/1/1 12:00:00</secondTime>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>String_ListOfString</DBName>
+    <Command>specPatternQuery</Command>
+    <Data></Data>
+  </Msg>
+  <Msg>
+    <DBName>String_ListOfString</DBName>
+    <Command>stringQuery</Command>
+    <Data>
+      <string>elem11</string>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+    <Command>keyQuery</Command>
+    <Data>
+      <key>1</key>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+    <Command>childrenQuery</Command>
+    <Data>
+      <key>1</key>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+    <Command>timeQuery</Command>
+    <Data>
+      <firstTime>2014/9/29 11:00:00</firstTime>
+      <secondTime>2016/1/1 12:00:00</secondTime>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+    <Command>specPatternQuery</Command>
+    <Data></Data>
+  </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+    <Command>stringQuery</Command>
+    <Data>
+      <string>attack</string>
+    </Data>
+  </Msg>
+</Msgs>

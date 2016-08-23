@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Convert database content to XML file-->
+<NoSQLdb>
+  <keytype>System.Int32</keytype>
+  <payloadtype>System.String</payloadtype>
+  <element>
+    <key>1</key>
+    <name>element 1</name>
+    <descr>payload desxription</descr>
+    <timestamp>2015/10/6 16:38:30</timestamp>
+    <payload>a payload</payload>
+  </element>
+  <element>
+    <key>2</key>
+    <name>element 2</name>
+    <descr>star war 2</descr>
+    <timestamp>2015/9/10 12:30:01</timestamp>
+    <payload>The Empire strikes back!</payload>
+  </element>
+  <element>
+    <key>3</key>
+    <name>element 3</name>
+    <descr>star war 3</descr>
+    <timestamp>2015/10/2 8:00:00</timestamp>
+    <children>
+      <key>1</key>
+      <key>2</key>
+      <key>3</key>
+    </children>
+    <payload>X-Wing fighter in swamp - Oh oh!</payload>
+  </element>
+</NoSQLdb>

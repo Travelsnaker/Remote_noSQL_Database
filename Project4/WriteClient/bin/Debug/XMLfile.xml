@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Msgs>
+  <numMsg>1</numMsg>
+  <Msg>
+    <DBName>String_ListOfString</DBName>
+    <Command>insert</Command>
+  <Data>
+    <key>key1</key>
+    <value>
+      <name>elem1</name>
+      <descr>elem1 descr</descr>
+    <timestamp>2015/9/29 12:00:00</timestamp>
+      <children>
+        <key>key2</key>
+        <key>key3</key>
+      </children>
+      <payload>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+      </payload>
+    </value>
+  </Data>
+  </Msg>
+  <Msg>
+    <DBName>String_ListOfString</DBName>
+    <Command>insert</Command>
+    <Data>
+      <key>key4</key>
+      <value>
+        <name>elem2</name>
+        <descr>elem2 descr</descr>
+        <timestamp>2012/9/29 12:00:00</timestamp>
+        <children>
+          <key>key5</key>
+          <key>key6</key>
+        </children>
+        <payload>
+          <item>Tom</item>
+          <item>Jim</item>
+        </payload>
+      </value>
+    </Data>
+  </Msg>
+    <Msg>
+    <DBName>String_ListOfString</DBName>
+    <Command>insert</Command>
+    <Data>
+      <key>key11</key>
+      <value>
+        <name>elem11</name>
+        <descr>elem11 descr</descr>
+        <timestamp>2014/10/29 12:00:00</timestamp>
+        <children>
+          <key>key7</key>
+          <key>key8</key>
+        </children>
+        <payload>
+          <item>track</item>
+          <item>find</item>
+          <item>C</item>
+        </payload>
+      </value>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>String_ListOfString</DBName>
+    <Command>delete</Command>
+    <Data>
+      <key>key1</key>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>String_ListOfString</DBName>
+    <Command>edit</Command>
+    <Data>
+      <key>key4</key>
+      <value>
+        <name>elem3</name>
+        <descr>elem3 descr</descr>
+        <timestamp>2014/9/29 12:00:00</timestamp>
+        <children>
+          <key>key2</key>
+          <key>key3</key>
+        </children>
+        <payload>
+          <item>S</item>
+          <item>B</item>
+          <item>C</item>
+        </payload>
+      </value>
+    </Data>
+  </Msg> 
+  <Msg>
+    <DBName>String_ListOfString</DBName>
+    <Command>persistDB</Command>
+    <Data><FileName>DB.xml</FileName></Data>
+  </Msg>
+  <Msg>
+    <DBName>String_ListOfString</DBName>
+    <Command>restoreDB</Command>
+    <Data>
+      <FileName>DB.xml</FileName>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+  <Command>insert</Command>
+  <Data>
+    <key>1</key>
+  <value>
+        <name>attack</name>
+        <descr>empire attacks</descr>
+        <timestamp>2014/10/29 12:00:00</timestamp>
+        <children>
+          <key>2</key>
+          <key>4</key>
+        </children>
+        <payload>Attack by empire</payload>
+      </value>
+  </Data>
+    </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+    <Command>insert</Command>
+    <Data>
+      <key>2</key>
+      <value>
+        <name>defense</name>
+        <descr>attack has been defensed</descr>
+        <timestamp>2015/10/22 12:00:00</timestamp>
+        <children>
+          <key>5</key>
+          <key>6</key>        
+        </children>
+      <payload>empire retreat</payload>
+      </value>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+    <Command>insert</Command>
+    <Data>
+      <key>3</key>
+      <value>
+        <name>alarm</name>
+        <descr>enemy returns</descr>
+        <timestamp>2015/9/1 11:00:00</timestamp>
+        <children>
+          <key>11</key>
+          <key>13</key>
+        </children>
+        <payload>empire returns</payload>
+      </value>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+    <Command>delete</Command>
+  <Data>
+    <key>3</key>
+  </Data>
+  </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+    <Command>edit</Command>
+    <Data>
+      <key>2</key>
+      <value>
+        <name>hello</name>
+      <descr>hello world</descr>
+        <timestamp>2010/10/1 12:00:00</timestamp>
+        <payload>hello world</payload>
+      </value>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+    <Command>persistDB</Command>
+    <Data>
+      <FileName>DB2.xml</FileName>
+    </Data>
+  </Msg>
+  <Msg>
+    <DBName>Int_String</DBName>
+    <Command>restoreDB</Command>
+    <Data>
+      <FileName>DB2.xml</FileName>
+    </Data>
+  </Msg>
+</Msgs>

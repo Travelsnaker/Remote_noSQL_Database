@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Convert database content to XML file-->
+<NoSQLdb>
+  <element>
+    <key>1</key>
+    <value>
+      <name>unnamed</name>
+      <descr>undescribed</descr>
+      <timestamp>2015/10/8 21:58:48</timestamp>
+      <payload>default payload</payload>
+    </value>
+  </element>
+  <element>
+    <key>2</key>
+    <value>
+      <name>Darth Vader</name>
+      <descr>element</descr>
+      <timestamp>2015/10/8 21:58:48</timestamp>
+      <payload>The Empire strikes back!</payload>
+    </value>
+  </element>
+  <element>
+    <key>3</key>
+    <value>
+      <name>Luke Skywalker</name>
+      <descr>element</descr>
+      <timestamp>2015/10/8 21:58:48</timestamp>
+      <children>
+        <key>1</key>
+        <key>5</key>
+        <key>23</key>
+      </children>
+      <payload>The empire is failed</payload>
+    </value>
+  </element>
+</NoSQLdb>

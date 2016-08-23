@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Convert database content to XML file-->
+<NoSQLdb>
+  <element>
+    <key>1</key>
+    <value>
+      <name>attack</name>
+      <descr>empire attacks</descr>
+      <timestamp>2014/10/29 12:00:00</timestamp>
+      <children>
+        <key>2</key>
+        <key>4</key>
+      </children>
+      <payload>Attack by empire</payload>
+    </value>
+  </element>
+  <element>
+    <key>2</key>
+    <value>
+      <name>hello</name>
+      <descr>hello world</descr>
+      <timestamp>2010/10/1 12:00:00</timestamp>
+      <payload>hello world</payload>
+    </value>
+  </element>
+</NoSQLdb>

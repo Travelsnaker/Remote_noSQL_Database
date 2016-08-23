@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Convert database content to XML file-->
+<NoSQLdb>
+  <element>
+    <key>key4</key>
+    <value>
+      <name>elem3</name>
+      <descr>elem3 descr</descr>
+      <timestamp>2014/9/29 12:00:00</timestamp>
+      <children>
+        <key>key2</key>
+        <key>key3</key>
+      </children>
+      <payload>
+        <item>S</item>
+        <item>B</item>
+        <item>C</item>
+      </payload>
+    </value>
+  </element>
+  <element>
+    <key>key11</key>
+    <value>
+      <name>elem11</name>
+      <descr>elem11 descr</descr>
+      <timestamp>2014/10/29 12:00:00</timestamp>
+      <children>
+        <key>key7</key>
+        <key>key8</key>
+      </children>
+      <payload>
+        <item>track</item>
+        <item>find</item>
+        <item>C</item>
+      </payload>
+    </value>
+  </element>
+</NoSQLdb>
